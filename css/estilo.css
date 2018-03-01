@@ -1,0 +1,287 @@
+      @charset="utf-8"; 
+            nav{
+                display: flex;
+                position: fixed;
+                align-items: center;
+                justify-content:space-around;
+                width: 100%;
+                align-items: baseline;
+                padding-bottom: 0px;
+                z-index: 2000;
+                
+                }
+
+             nav.white{
+                background: rgba(4,0,0,0.5);
+                height: 77px;
+                position: fixed;
+                width: 100%;
+                 
+                }
+               
+                nav h1{
+                    align-items: baseline;
+    
+                }
+
+                nav img{
+                    width: 68px;
+                    
+        
+                }
+                nav ul li a{
+                text-decoration: none;
+                color:#f1f1f1;
+                font-family: Quicksand;
+                font-size: 19px;
+                
+            }
+            nav li:hover {
+                border-bottom: 2px solid #DCDCDC;
+            }
+            nav li:hover a {
+                text-decoration: none;
+                opacity: 0.6;
+                color:#f1f1f1;
+                transition: background-color 1s;
+            }
+            nav ul{
+                list-style: none;
+                align-items: right;
+            }
+            nav li{
+                display: inline-block;
+                /*border-right: 1px solid;*/
+                padding: 1.1em 1.1em;
+				letter-spacing: 0.02em;
+                border-color: rgba(255,255,255,.1);
+                
+            }
+            
+
+            nav.white ul{
+                color: #fff;
+            }
+            nav.white ul li a{
+                color: #fff;
+            }
+            
+            header{
+                background-image:url('../img/img4.jpg');
+                background-attachment: fixed;
+                background-size:cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                align-items: center;
+                padding: 46.10vh;
+                
+                
+           
+            }
+            header h1{
+                color: #f1f1f1;
+                font-family: "Poiret One";
+                font-weight: 700;
+                text-align: center;
+                font-size:50px;
+                text-shadow: 2px 4px 10px black;
+            }
+            nav h1{
+                font-family: Pacifico;
+                font-weight: 700;
+                font-size:30px;
+                color:#f1f1f1;
+                text-align: justify;
+                
+            }
+            #sobre {
+                padding: 57px 220px 100px;
+                display: block;
+                justify-content: center;
+                top:100px;
+                background-color:#E8E8E8;
+                
+            }
+          
+            #sobre h2{
+                text-align: center;
+                padding-bottom: 16px;
+                padding-top: 10px;
+                font-family:"Roboto Slab", "Helvetica";
+                font-weight: 700;
+                font-size:25px;
+                
+                
+            }
+            #sobre p{ 
+                font-family: "Quicksand";
+                font-size:18px;
+                text-indent: 50px;
+                text-align: justify;
+                letter-spacing: 1px;
+                
+    
+            }
+            #galeria{
+                margin-bottom: 400px;
+                margin-left: 150px;
+            }
+      
+             #galeria ul li{
+                list-style:none;
+                float:left;
+                
+                
+             }
+
+             #galeria ul li a{
+             text-decoration:none;
+            
+    
+            }
+            #galeria ul li a img{
+                
+                float:left;
+                width: 320px;
+                
+            
+                  
+            }
+
+            #galeria ul li a:hover img{
+                transform: scale(1.3)
+                
+            }
+            
+                
+            .botao{
+                
+                border-radius: 90px;
+                background-color: black;
+                
+                border:solid 10px;
+                border-color: transparent;
+                align-items: center;
+                width:40px;
+                height: 40px;
+                opacity: 0.7;
+                position: absolute;
+                top:90%;
+                bottom: 0;
+                left: 50%;
+                right: 50%;
+                
+                
+                
+            }
+            .botao:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+
+        .contatos{
+            padding-bottom: 300px;    
+            margin-left:-25px;
+
+        }
+        .contatos h1{
+            text-align: center;
+            font-size: 30px;
+            font-family:"Roboto Slab", "Helvetica";
+            padding-bottom: 20px;
+        }
+
+
+        .contatos img{
+            width: 140px;
+            height: 140px;
+            border-radius: 50% ;
+            border: solid 5px #DCDCDC;
+            
+        }
+
+
+
+        #contato2 {
+            position: relative;
+            left: 200px;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        #contato3 {
+            position: relative;
+            left: 200px;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        #contato4 {
+            position: relative;
+            left: 200px;
+            width: 200px;
+            height: 200px;
+            float:left;
+        }
+
+        #contato5{
+            position: relative;
+            left: 200px;
+            width: 200px;
+            height: 200px;
+            float:left;
+        }
+        #contato6{
+               position: relative;
+            left: 200px;
+            width: 200px;
+            height: 200px;
+            float:left;
+        }
+        
+        
+        footer{
+            height: 110px;
+            background-color:#616161;  
+        }
+
+        footer a{
+            padding-left: 76px;
+        }
+
+        #linguajando h1{
+            margin-left: 5px;
+            font-family: "Pacifico";
+            font-size: 30px;
+            color: #f1f1f1;
+        }
+
+        #linguajando p{
+            margin-top: -20px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 17px;
+            color:#f1f1f1;
+            font-family:"Roboto Slab", "Helvetica", "Open Sans";
+        }
+        #linguajando hr{
+            border: 0;
+            height: 1px;
+            width: 450px;
+            background: #f1f1f1;
+            
+        }
+        
+        #linguajando img{
+            
+            width: 50px;
+    }
+        #linguajando a{
+            margin-left: 560px;
+            color:#f1f1f1;
+            margin-top: 100px
+        }
+
+       
+
